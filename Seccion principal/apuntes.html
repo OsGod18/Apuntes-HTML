@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes - ApH</title>
+    <link rel = "stylesheet" href="apuntes.css">
+    <link rel="icon" href="../Imagenes requeridas/apuntes-html-icono_32x32.png" type="image/png">
+
+    <!--TIPOGRAFIA-->
+    <!--LETRA DE PARRAFOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--"Exo 2"-->
+
+    <!--LETRA PARA TITULOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <!---->
+
+    <!--LETRA PARA SECCIONES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <!--"Cal Sans"-->
+</head>
+<body>
+    <header>
+        <h1 class = "logo_html">
+            <ul class="list">
+            <li>HTML</li>
+            <li>DISEÑO</li>
+            <li>WEB</li>
+            <li>CODIGO</li>
+            </ul>
+        </h1>
+
+        <nav>
+            <a class = "seccion" target="_blank" href = "inicio.html">Inicio</a>
+            <a class = "seccion" href = "#">Apuntes</a>
+            <a class = "seccion" target="_blank" href = "proyectos.html">Proyectos creados</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1 class = "bienvenida">Apuntes</h1>
+        <!--DEFINICION DE PAGINA WEB-->
+        <h2 class = "titulo-tema">¿Que es una pagina web?</h2>
+        <p class="texto">Una pagina web es un <strong>documento digital que se accede a traves de internet usando un navegador</strong>. Este documento puede contener texto, imagenes, videos, enlaces y otros elementos interactivos. Cada pagina web tiene una direccion URL unica que permite acceder a ella desde cualquier lugar con conexion a internet.</p>
+
+        <h3 class="subtitulo-tema">Tipos de pagina web:</h3>
+        <p class="texto">Las paginas web pueden clasificarse segun su funcion o contenido:</p>
+        <ul>
+            <li class="texto-lista-ul"><strong>Estaticas:</strong> Presentan contenido fijo que no cambia para diferentes usuarios</li>
+            <li class="texto-lista-ul"><strong>Dinamicas:</strong> Su contenido se actualiza automaticamente o segun la interaccion del usuario, por ejemplo, redes sociales, tiendas en linea o blogs.</li>
+            <li class="texto-lista-ul"><strong>Informativas:</strong> Diseñadas para ofrecer datos, noticias o articulos educativos.</li>
+            <li class="texto-lista-ul"><strong>Comerciales:</strong> Su objetivo principal es la venta de productos o servicios.</li>
+            <li class="texto-lista-ul"><strong>Interactiva o de servicios:</strong> Permite acciones como registro de datos, consultas o transacciones electricas.</li>
+        </ul>
+
+        <p class="texto">Las paginas web son esenciales actualmente porque permiten a las personas y empresas <strong>difundir informacion, comunicarse y ofrecer servicios a nivel global</strong></p>
+        <!---->
+        <!--EXPLICACION DE HTML-->
+        <div id="flexbox-tema-html">
+            <h2 class="titulo-tema">HTML</h2>
+            <img loading = "lazy" src="../Imagenes requeridas//html-logo.png" alt="Logo de html" id = "logo-html">
+        </div>
+        <p class="texto">Aunque existen diversas plataformas y softwares los cuales permiten crear paginas web dinamicas, en poco tiempo y de manera sencilla, es indiscutible tener conocimiento tecnico sobre el lenguaje demarcado <strong>HTML</strong>. 
+        <br>
+        <br>
+        HTML o HyperText Markup Language<strong>(Lenguaje de Marcado de Hipertexto)</strong>, es un lenguaje estandar utilizado para estructuras y presentar contenido en la web. <strong >No es un lenguaje de programacion</strong> ya que se abstiene del uso de logica de programacion. Esta herramienta define la estructura de una pagina web mediante etiquetas y atributos.
+        <br>
+        <br>
+        Las etiquetas que se usan al momento de crear una pagina web, pueden definir diferentes tipos de contenido, como párrafos, encabezados, imágenes, listas, enlaces, tablas, formularios, entre otros.
+        </p>
+
+        <h3 class="subtitulo-tema">Historia de HTML</h3>
+        <p class="texto">Ya que conocemos un concepto breve sobre este lenguaje estandar, debemos tambien conocer un poco de su historia.
+        <br>
+        <br>
+        HTML fue desarrollado a finales de la decada de 1980 y principios de los 90 por <strong>Tim Berners-Lee</strong>, un fisico y cientifico de la computacion britanico que trabajaba en el <strong>CERN</strong>(organizacion Europea para la Investigacion Nuclear) en Suiza. Esta herramienta fue creada con el proposito de compartir informacion de manera rapida, flexible, a distancia y organizada entre los investigadores de su epoca, dando origen a la <strong>World Wide Web(WWW).</strong>
+        <br>
+        <br>
+        <strong>El primer documento con etiquetas</strong> HTML, fue conocido como <strong>HTML Tags</strong>. Este documento explicaba que era la Web, como crear paginas y como configurar un servidor:
+        </p>
+        <br>
+        <br>
+        <section class = "contenedor_imagen_ejemplo-tamaño-100">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">HTML Tags:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/primer-codigo-html.jpg" alt="Primer codigo de html" class="imagen_ejemplo_tamaño_650-360">
+                
+            </div>
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo" >Tim Berners-Lee:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/tim-berners-lee.jpg" alt="Creador de la WWW" class="imagen_ejemplo">
+            </div>
+        </section>
+        <br><br>
+        <!---->
+        <!--Estructura de una pagina web(body, head)-->
+        <h2 class="titulo-tema">Estructura de un documento HTML</h2>
+        <p class="texto">Un <strong>documento.html</strong> sostiene una estructura la cual permite el desarrollo y presentacion de una pagina web. Esta estructura contiene dos etiquetas importantes para la organizacion de etiquetas de la pagina web; <strong>&lt;body&gt; Y &lt;head&gt;</strong>. 
+        <br>
+        <br>
+        El <strong>head</strong> contiene informacion no visible para el usuario, como el titulo de la pagina, metaetiquetas(explicacion mas abajo), estilos CSS y logica de programacion Javascript. El <strong>body</strong> alberga el contenido de la pagina con la posibilidad de que el usuario pueda interactuar.
+        </p>
+        <section class = "contenedor_imagen_ejemplo-tamaño-50">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">Ejemplo de estructura HTML:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/estructura-documento-html.png" alt="Primer codigo de html" class="imagen_ejemplo_sin_tamaño">
+                
+            </div>
+        </section>
+        <p class="texto"><strong>IMPORTANTE:</strong> podemos crear la estructura de un documento HTML en un instante con la palabra "html : 5". Este atajo es posible si se tiene emmet implementado en el editor de codigo(visual studio code si lo tiene implementado)</p>
+        
+        <section id = "contenedor_video_ejemplo_estructura_html">
+            <!------>
+                    <p class = "texto_video_ejemplo">Video ejemplo de esturctura rapida:</p> 
+                <video autoplay loop controls class  = "video_ejemplo">
+                    <source src="../Imagenes ejemplos/estuctura-rapida-html-video.mp4">
+                    <source src="../Imagenes ejemplos/estuctura-rapida-html-video - copia.mp4">
+                    <h3 class="subtitulo-tema">ERROR:</h3>
+                    <p class="texto">No se puede reproducir el video</p>
+                </video>
+        </section>
+        <br><br>
+        <!---->
+        <!--HTML semantico-->
+        <h2 class="titulo-tema">HTML semantico</h2>
+        <p class="texto">Una pagina web esta formado por una estructura detallada la cual permite sostener y optimizar la busqueda de informacion, brindar una mejor experiencia de usuario y mantener un diseño accesible y estetico. Algunas secciones claras de una estructura web, son:</p>
+        <ol>
+            <div>
+                <li class="texto-lista-ol"><strong>Header(cabecera):</strong> Es la parte superior de la pagina web. Su objetivo es proporcionar identidad de marca y facilitar la navegacion. El header puede ser fijo o dinámico, permitiendo que el usuario lo vea aun al hacer scroll. Esta seccion incluye:</li>
+                <ul>
+                    <li class = "texto-lista-ul"><strong>Logotipo de la marca, normalmente vinculado a la pagina principal</strong></li>
+                    <li class = "texto-lista-ul"><strong>Menu de navegacion principal(enlace de secciones; inicio, productos, servicios y contacto.)</strong></li>
+                    <li class = "texto-lista-ul"><strong>Llamadas a la accion(CTA), como botones de registrarse, comprar o contactar.</strong></li>
+                    <li class = "texto-lista-ul"><strong>Barra de busqueda, informacion de contacto, o accesos rapidos(todo esto puede ser opcional).</strong></li>
+                </ul>
+                <section class = "contenedor_imagen_ejemplo-tamaño-100-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Codigo del header:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/header-codigo-ejem.png" alt="Header en codigo" class="imagen_ejemplo_tamaño_650-360">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-100-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Ejemplo del header:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/header-pagina-ejem.jpg" alt= "Header en una pagina" id="imagen_ejemplo-pagina-header">
+                    </div>
+                </section>
+            </div>
+            </div>
+            <div>
+                <li class="texto-lista-ol"><strong>Body(cuerpo):</strong> El cuerpo es la seccion central donde se incluyen los contenidos propios de cada pagina; elementos como imágenes, videos, banners, textos, formularios, sliders, carrousels, y cualquier contenido interactivo que aporte valor al usuario. Su estructura puede ser en bloque o por secciones semanticas:</li>
+                <ul>
+                    <li class = "texto-lista-ul"><strong>&lt;main&gt;:</strong> aqui se ubica el contenido principal</li>
+                    <li class = "texto-lista-ul"><strong>&lt;article&gt;:</strong> bloques de contenido independiente, como un post de blog o ficha de producto.</li>
+                    <li class = "texto-lista-ul"><strong>&lt;section&gt;:</strong> agrupa secciones relacionadas dentro de la pagina</li>
+                    <li class = "texto-lista-ul"><strong>&lt;aside&gt;:</strong> contenido complementario o lateral, como enlaces relacionados, publicidad o widgets</li>
+                    <li class = "texto-lista-ul"><strong>&lt;div&gt; y &lt;span&gt;:</strong> envolturas no semanticas para diseño u organizacion CSS/JS</li>
+                </ul>
+                <!--IMAGEN EJEMPLO DE BODY-->
+                <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Codigo del body:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/body-codigo-ejem.png" alt="Body en codigo" class="imagen_ejemplo_tamaño_650-360">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Ejemplo del body:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/body-pagina-ejem.png" alt= "Body en una pagina" class="imagen_ejemplo_tamaño_650-360">
+                    </div>
+                </section>
+            </div>
+            <div>
+                <li class="texto-lista-ol"><strong>Footer(pie de pagina):</strong> El footer se encuentra al final del documento web y suele repetirse en todas las secciones. Contiene informacion secundaria pero importante:</li>
+                <ul>
+                    <li class = "texto-lista-ul"><strong>Datos de contacto:</strong> direccion, correo, telefono y enlaces a redes sociales.</li>
+                    <li class = "texto-lista-ul"><strong>Informacion alternativa:</strong> enlaces a politicas, terminos de uso, cookies y sitemap.</li>
+                    <li class = "texto-lista-ul"><strong>Certificaciones:</strong> logo de colaboradores, derechos de autor, y enlaces a otras secciones del sitio web</li>
+                </ul>
+                <!--IMAGEN EJEMPLO DE FOOTER-->
+                <section class = "contenedor_imagen_ejemplo-tamaño-50-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Codigo del footer:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/footer-codigo-ejem.png" alt="Footer en codigo" class="imagen_ejemplo_sin_tamaño">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-50-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Ejemplo del footer:</h3>
+                        <img loading = "lazy" src="../Imagenes ejemplos/footer-pagina-ejem.png" alt= "Footer en una pagina" class="imagen_ejemplo_sin_tamaño">
+                    </div>
+                </section>
+            </div>
+        </ol>
+        <p class="texto"><strong>En resumen</strong>, una estructura web solida organiza contenidos de manera intuitiva, facilita la navegacion y mejora la experiencia de usuario. Cada seccion y elemento tiene un proposito: desde reforzar la identidad de la marca hasta guiar al usuario a la seccion deseada. <strong>Todo el codigo de HTML semantico se ubica en el body principal del documento web</strong> </p>
+        <!---->
+        <!--ETIQUETAS BASICAS DE HTML-->
+        <h2 class = "titulo-tema">Etiquetas basicas de HTML</h2>
+        <p class="texto">En este apartado, conoceras las etiquetas basicas que forman el contenido de una pagina web. Estas son esenciales ya que permiten crear cosas sencillas pero necesarias para la presentacion de informacion.</p>
+
+        <!--title-->
+        <h3 class="subtitulo-tema">&lt;title&gt;</h3>
+        <p class="texto">La etiqueta &lt;title&gt; <strong>permite modificar el titulo que se ubica en la pestaña de la pagina web</strong>. Esta etiqueta se ubica dentro de la etiqueta(bloque) &lt;head&gt; del documento HTML. Es util para asignar el titulo de la pagina web.</p>
+        <!---->
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                <!------>
+                <div>
+                    <h3 class = "texto_imagen_ejemplo">Pagina web con titulo predeterminado:</h3>
+                    <img loading = "lazy" src="../Imagenes ejemplos/without-title.png" alt="Ejemplo de pagina web con titulo predeterminado" class="imagen_ejemplo_sin_tamaño">                        
+                </div>
+            </section>
+            <br><br><br>
+        <!--EJEMPLO DE TITULO Y SU CODIGO-->
+        <section class = "contenedor_imagen_ejemplo-tamaño-100">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">Pagina web con titulo propio:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/with-title.png" alt="Ejemplo de titulo propio" class="imagen_ejemplo_sin_tamaño">
+                
+            </div>
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo" >Ubicacion de &lt;title&gt;:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/with-title-code.png" alt="Ubicacion de etiqueta de titulo" class="imagen_ejemplo_sin_tamaño">
+            </div>
+        </section>
+        <!---->
+        <!--h1-->
+        <h3 class="subtitulo-tema">&lt;h1&gt; -> &lt;h6&gt;</h3>
+        <p class="texto">La etiqueta header(encabezado) toma el rol de dividir el contenido de la pagina web con titulos y subtitulos. Su tamaño varia por su numero, en este caso, <strong>el &lt;h1&gt; es el titulo o subtitulo mas grande</strong>, y el &lt;h6&gt; es el titulo o subtitulo mas pequeño. <strong>Esta etiqueta y las siguientes, se ubicn dentro del bloque &lt;body&gt;, del documento HTML</strong>.</p>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">Codigo de etiquetas &lt;h&gt;:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-h1-ejemplo-code.png" alt="Codigo de titulos y subtitulos" class="imagen_ejemplo_sin_tamaño">
+                
+            </div>
+            </section>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">Ejemplo de etiquetas &lt;h&gt;:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-h1-ejemplo.png" alt="Ejemplo de titulos y subtitulos" class="imagen_ejemplo_sin_tamaño" >
+                
+            </div>
+            </section>
+        <!---->
+        <!--p-->
+        <h3 class="subtitulo-tema">&lt;p&gt;</h3>
+        <p class="texto">Paragraph tiene el mismo importante uso de &lt;h1&gt; sobre mostrar contenido en la pagina web. Su funcion es introducir textos(o parrafos) en la pagina web. El texto que estas leyendo se almacena en una etiqueta de paragraph la cual es modificada con CSS. La infografia predeterminada de la etiqueta paragraph es "Sans-serif", y esta se puede modificar en un archivo CSS</p>
+            <!--ejemplo paragraph-->
+            <section class = "contenedor_imagen_ejemplo-tamaño-50">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo">Paragraph ejemplo en codigo:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/paragraph-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                
+            </div>
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo" >Paragraph ejemplo en pagina:</h3>
+                <img loading = "lazy" src="../Imagenes ejemplos/paragraph-ejemplo-pagina.png" class="imagen_ejemplo_sin_tamaño">
+            </div>
+        </section>
+        <h2 class = "titulo-tema">Etiquetas decorativas de HTML</h2>
+        <p class="texto">Existen diferentes etiquetas las cuales cumplen la funcion de marcar palabras, asignar contenido importante o estructurar el texto para lograr tener una mayor comprension de la informacion. Estas etiquetan son las siguientes:</p>
+
+        <section id="contenedor-principal-etiquetas-decorativas">
+            <!--FIRST-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;br&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta de <strong>line break</strong>(separador de linea) se utiliza para insertar un salto de línea en el texto. Es util en casos donde las líneas deben dividirse de manera específica, como en poemas o direcciones. Sin embargo, para diseño y espaciado general, es mejor usar estilos CSS. Es un elemento vacío, por lo que no tiene etiqueta de cierre.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-br-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-br-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!--SECOND-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;hr&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta de <strong>Horizontal Rule</strong>(regla horizontal) se utiliza para representar un cambio temático o separación visual entre secciones de contenido. Por defecto, el navegador la muestra como una línea horizontal que ocupa todo el ancho disponible. Al igual que la etiqueta &lt;br&gt;, es un elemento vacio, por lo cual, no tiene etiqueta de cierre.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-hr-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-hr-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!--THIRD-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;strong&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>Strong</strong>(fuerte) se utiliza para indicar que el contenido dentro de esta etiqueta es importante. Aunque visualmente solo resalta las palabras que se contienen, su proposito principal es transmitir significado mejorando la accesibilidad del contenido web. La <strong>diferencia con &lt;b&gt;</strong> radica en que el navegador le da mas importancia a &lt;strong&gt;</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-strong-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-strong-ejemplo-pagina.png" alt="" width="400px" height="220px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--FOURTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;em&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>emphasis</strong> Indica que el contenido tiene un énfasis especial, lo que ayuda a los lectores y a tecnologías asistivas (como lectores de pantalla) a interpretarlo correctamente. Puedes anidar &lt;em&gt; dentro de otro &lt;em&gt; para indicar un mayor grado de énfasis.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-em-ejemplo-codigo.png" alt="" width="400px" height="240px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-em-ejemplo-pagina.png" alt="" width="400px" height="220px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--FIFTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;i&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>italic</strong> se usa para mostrar texto en cursiva, generalmente para marcarlo como diferente o especial, pero sin darle un énfasis semántico fuerte como lo hace. Se usa normalmente para resaltar terminos tecnicos, palabras de otro idioma o citas.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-i-ejemplo-codigo.png" alt="" width="400px" height="220px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-i-ejemplo-pagina.png" alt="" width="400px" height="220px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--SIXTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;u&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>underline</strong> se utiliza para mostrar texto con una línea debajo.Su proposito es marcar textos con una anotación no textual (ejemplo: nombres propios mal escritos, palabras con errores ortográficos). No se recomienda usarlo solo para dar estilo visual, ya que eso se hace mejor con CSS.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-u-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-u-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--SEVENTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;mark&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>to mark</strong> resaltar o marcar texto como importante o relevante dentro de un contexto, mostrándolo por defecto con un fondo amarillo fluorescente, pero con texto normal. El fondo amarillo es posible personalizarlo con CSS, modificado unicamente el "background-color".</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-mark-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-mark-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--EIGHTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;small&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>small</strong> se utiliza para mostrar texto en un tamaño más pequeño que el texto normal, pero además tiene un significado semántico: se emplea para indicar comentarios secundarios, aclaraciones, notas legales o información menos relevante dentro del contenido principal.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-small-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-small-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+            <!--NINTH-->
+            <nav class="contenedor-secundario-etiquetas-decorativas">
+                <div class="contenedor-informativo-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">&lt;sup&gt;</h4>
+                    <p class="etiqueta-decorativa-texto">La etiqueta <strong>superscript</strong> se utiliza para mostrar texto más pequeño y elevado respecto a la línea base del texto normal, ideal para potencias, notas al pie y abreviaturas ordinales. Esta etiqueta es Util en contextos científicos y académicos.</p>
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">CODIGO</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-sup-ejemplo-codigo.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+
+                </div>
+                <div class="contenedor-imagen-etiquetas-decorativas">
+                    <h4 class="etiqueta-decorativa-titulo">PAGINA</h4>
+                    <img loading = "lazy" src="../Imagenes ejemplos/etiqueta-sup-ejemplo-pagina.png" alt="" width="400px" height="300px" class="etiqueta-decorativa-imagen">
+                </div>
+            </nav>
+            <!---->
+        <!--END-->
+        </section>
+        <!--LISTAS-->
+        <h2 class="titulo-tema">LISTAS</h2>
+        <p class="texto">Las listas son estructuras que permiten organizar informacion de manera clara y legible. Se dividen en <strong>listas no ordenadas, listas ordenadas y listas de descripcion</strong>.
+        <br>
+        <br>
+        <strong>Importante:</strong> para poder crear la estructura de la lista, debemos tener una etiqueta la cual tomara el rol de "contenedor", todo esto con el fin de indicarle al navegador que el contenedor es una lista. Esta etiqueta "contenedor" encapsula los elementos que se incluiran en la lista con otro tipo de etiqueta.</p>
+
+        <h3 class="subtitulo-tema">Listas no ordenadas</h3>
+        <p class="texto">Las listas no ordenadas muestran los elementos con viñetas(•), sin un orden relevante. <strong>Se definen con &lt;ul&gt; (unordered list) y cada elemento con &lt;li&gt; (list item)</strong>.</p>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Etiqueta &lt;ul&gt; codigo:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-ul-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Etiqueta &lt;ul&gt; pagina:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-ul-ejemplo-pagina.png"class="imagen_ejemplo_sin_tamaño">
+                    </div>
+            </section>
+        
+        <h3 class="subtitulo-tema">Listas de descripcion</h3>
+        <p class="texto">Este tipo de lista se usa para pares de termino y descripcion. Se puede usar para crear diccionarios o descripcion de terminos.
+        <br>
+        <br>
+        Se definen con: &lt;dl&gt; (description list) → contenedor de la lista. &lt;dt&gt; (description term) → término. &lt;dd&gt; (description definition) → descripción.</p>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Etiqueta &lt;dl&gt; codigo:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-dl-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Etiqueta &lt;dl&gt; pagina:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-dl-ejemplo-pagina.png" class="imagen_ejemplo_sin_tamaño">
+                    </div>
+            </section>
+        
+        <h2 class = "titulo-tema">Enlaces</h3>
+        
+        <p class="texto">Los enlaces son necesarios para poder redirigir al usuario a diferentes lugares del internet. Para poder colocar links en la pagina web, debemos usar la etiqueta &lt;a&gt;(ancle), la cual, permite colocar el url de la pagina y aprovechar diferentes atributos para mejorar la experiencia con el usuario.</p>
+
+        <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">Enlaces en codigo:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-a-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                        
+                    </div>
+                </section>
+                <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo" >Enlaces en pagina:</h3>
+                        <img src="../Imagenes ejemplos/etiqueta-a-ejemplo-pagina.png" class="imagen_ejemplo_sin_tamaño">
+                    </div>
+            </section>
+
+        <h3 class="subtitulo-tema">Atributos de ancle</h3>
+        <p class="texto">Los atributos son datos que se añaden a la etiqueta para dar informacion adicional o indicar las acciones que debe realizar el navegador respecto al atributo. Diferentes tipos de atributos(existen mas pero veras unos importantes):</p>
+
+        <ul>
+            <li class="texto-lista-ul"><strong>href:</strong> Define la url o el destino del enlace.</li>
+            <!---->
+            <li class="texto-lista-ul"><strong>target:</strong> Indica como se enviara al usuario a la pagina del enlace.En este atributo, se presumen dos resultados; "_blank", redirige al usuario a una pagina web <strong>en una nueva pestaña</strong>. "_self", redirige al usuario a una pagina web <strong>en la misma pestaña</strong></li>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                    <!------>
+                    <div>
+                        <h3 class = "texto_imagen_ejemplo">_blank y _self</h3>
+                        <img src="../Imagenes ejemplos/atributo-target-ancle-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                        
+                    </div>
+            </section>
+            <!---->
+            <li class="texto-lista-ul"><strong>rel:</strong> Indica la relacion entre el enlace y el documento. Dos lineas de codigo importantes sobre el uso de este atributo son; "conexion entre archivo CSS y HTML" e "Icono de la pagina web".</li>
+            <section class = "contenedor_imagen_ejemplo-tamaño-200-columna">
+                <!------>
+                <div>
+                    <h3 class = "texto_imagen_ejemplo">Ejemplos de atributo rel</h3>
+                    <img src="../Imagenes ejemplos/atributo-rel-ancle-ejemplo-codigo.png" class="imagen_ejemplo_sin_tamaño">
+                </div>
+            </section>
+        </ul>
+
+        <h2 class="titulo-tema">Imagenes</h2>
+        <p class="texto">La posibilidad de insertas imagenes en una pagina web, ocurre con el uso de la etiqueta <strong>&lt;img&gt;(image)</strong>. Esta etiqueta es un elemento vacio(no tiene contenido, ni etiqueta de cierre) y se define principalmente mediante atributos:</p>
+        <ul>
+            <li class="texto-lista-ul"><strong>src:</strong> El atributo source(fuente), indica la ruta o URL de la imagen.</li>
+            <li class="texto-lista-ul"><strong>alt:</strong> El atributo alternative(alternativo), muestra un texto alternativo en caso de que la imagen no haya podido cargar correctamente</li>
+            <li class="texto-lista-ul"><strong>width:</strong> El atributo widht(ancho) define el tamaño sentido horizontal de la imagen en pixeles o porcentaje</li>
+            <li class="texto-lista-ul"><strong>height:</strong> El atributo height(altura) define el tamaño sentido vertical de la imagen en pixeles o porcentaje</li>
+            <li class="texto-lista-ul"><strong>title:</strong> El atributo title(titulo) muestra un titulo(nosotros se lo asignamos) al pasar el cursor sobre la imagen.</li>
+        </ul>
+        <section class = "contenedor_imagen_ejemplo-tamaño-100-columna">
+            <!------>
+            <div>
+            <h3 class = "texto_imagen_ejemplo">Codigo de img :</h3>
+            <img src="../Imagenes ejemplos/etiqueta-img-ejemplo-codigo.png"  class="imagen_ejemplo_sin_tamaño">
+            </div>
+        </section>
+        <section class = "contenedor_imagen_ejemplo-tamaño-100-columna">
+            <!------>
+            <div>
+                <h3 class = "texto_imagen_ejemplo" >Ejemplo de img:</h3>
+                <img src="../Imagenes ejemplos/etiqueta-img-ejemplo-pagina.png" class="imagen_ejemplo_sin_tamaño">
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    const cajas = document.querySelectorAll('.contenedor-informativo-etiquetas-decorativas, .contenedor-imagen-etiquetas-decorativas');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add('aparecer');
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    cajas.forEach(caja => {
+        observer.observe(caja);
+    });
+});
+</script>
+</body>
+</html>

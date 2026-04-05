@@ -1,0 +1,45 @@
+CREAR PAGINA WEB SOBRE APUNTES DE HTML.
+
+Explicar sobre:
+
+HTML básico:
+
+
+Enlaces e imágenes:
+
+<a> → Hipervínculo.
+<img> → Imagen.
+<figure> → Contenedor de imagen/ilustración.
+<figcaption> → Pie de imagen.
+
+Tablas:
+
+<table> → Tabla.
+<tr> → Fila de tabla.
+<th> → Celda de encabezado.
+<td> → Celda de datos.
+<thead> → Encabezado de tabla.
+<tbody> → Cuerpo de tabla.
+<tfoot> → Pie de tabla.
+<caption> → Título de la tabla.
+
+Formularios:
+
+<form> → Formulario.
+<input> → Campo de entrada.
+<textarea> → Área de texto.
+<button> → Botón.
+<select> → Lista desplegable.
+<option> → Opción de lista.
+<label> → Etiqueta para un campo.
+<fieldset> → Agrupa campos relacionados.
+<legend> → Título del grupo de campos.
+
+Multimedia:
+
+<audio> → Reproductor de audio.
+<video> → Reproductor de video.
+<source> → Fuente para audio/video.
+<track> → Subtítulos para video/audio.
+<canvas> → Área para gráficos dinámicos.
+<svg> → Gráficos vectoriales.
